@@ -1,0 +1,10 @@
+.landing__button{
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.landing__button:hover{
+    color: white;
+    background-color: #1111;
+}
