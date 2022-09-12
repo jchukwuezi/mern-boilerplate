@@ -15,6 +15,8 @@ dotenv.config({path: './config/config.env'})
 
 connectDB();
 
+const app = express();
+
 //setting up connect-mongodb-session store to store sessions in db
 const mongoDBstore = new MongoDBStore({
     uri: process.env.MONGO_URI,
